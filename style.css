@@ -14,6 +14,7 @@ h3 {
   font-size: 1.25em;
   line-height: 25px;
   color: #aaaaaa;
+  letter-spacing: 0.5px;
 }
 p {
   font-family: "Bitter", serif;
@@ -101,7 +102,8 @@ i {
   transform: rotate(-45deg) translate(10px);
 }
 .showcase {
-  background: url(./img/BD_img4.jpg) no-repeat center center/cover;
+  background: url(./img/MYXJ_20210127130048840_save.jpg) no-repeat center
+    center/cover;
   height: 250px;
   margin-top: 10px;
   padding-left: 25px;
@@ -133,7 +135,15 @@ i {
   color: #080808;
   letter-spacing: 1px;
 }
+.head {
+  margin: auto;
+  margin-top: 25px;
+}
 
+.content {
+  margin: 5px auto;
+  /* margin-bottom: 7.5px; */
+}
 .main_page {
   color: #ffe2e2;
   text-align: center;
@@ -284,4 +294,62 @@ i {
   justify-content: space-around;
   width: 50%;
   margin: 15px auto;
+}
+
+@media (min-width: 768px) {
+  h3 {
+    font-size: 2.245em;
+  }
+  p {
+    font-size: 1.25em;
+  }
+  .hamburger_btn {
+    display: none;
+  }
+  .menu_list {
+    position: relative;
+    flex-direction: row;
+    transform: none;
+    height: 15px;
+    padding-top: 15px;
+  }
+  .item {
+    font-size: 1.5em;
+  }
+  .showcase {
+    height: 500px;
+  }
+
+  .showcase .btn {
+    margin-bottom: 100px;
+  }
+
+  .head {
+    width: 75%;
+  }
+  .content {
+    width: 75%;
+    margin-top: 7.5px;
+  }
+
+  .logo .logo_img {
+    width: 200px;
+  }
+
+  .thumbnails div {
+    width: 30%;
+    height: 350px;
+  }
+
+  .card {
+    width: 350px;
+    height: 450px;
+  }
+
+  .reviews {
+    height: 700px;
+  }
+  .color_bkg {
+    height: 701px;
+  }
 }
