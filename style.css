@@ -128,6 +128,7 @@ i {
   text-align: center;
   margin-top: 30px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .btn p {
@@ -395,5 +396,18 @@ i {
   }
   .gallery > * {
     flex: 1 1 33%;
+  }
+  .showcase h3 {
+    font-size: 4em;
+    margin-bottom: 15px;
+    font-weight: 300;
+  }
+  .showcase h1 {
+    font-size: 4.5em;
+    font-weight: 400;
+  }
+  .btn {
+    width: 260px;
+    height: 50px;
   }
 }
