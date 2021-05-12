@@ -241,9 +241,10 @@ i {
   align-items: center;
 }
 
-.followme h3 {
+.followme p {
   color: #2c2c2c;
   margin: auto;
+  text-align: center;
 }
 
 .gallery {
@@ -359,7 +360,7 @@ i {
     font-size: 1.5em;
   }
   .showcase {
-    height: 500px;
+    height: 80vh;
   }
 
   .showcase .btn {
