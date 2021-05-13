@@ -25,6 +25,23 @@ p {
 i {
   font-size: 1.5em;
 }
+.temp {
+  display: flex;
+  margin: auto;
+  background-color: white;
+  width: 100%;
+  flex-direction: column;
+}
+
+.temp .top_banner {
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  font-size: 2.5em;
+  font-family: "Great Vibes", cursive;
+  color: #080808;
+}
+
 .container {
   display: flex;
   width: 100%;
@@ -104,21 +121,36 @@ i {
 .showcase {
   background: url(./img/MYXJ_20210127130048840_save.jpg) no-repeat center
     center/cover;
-  height: 250px;
+  height: 60vh;
   margin-top: 10px;
   padding-left: 25px;
   padding-top: 95px;
 }
-
+.showcase_content {
+  position: absolute;
+}
 .showcase h3 {
   color: black;
+  font-family: "Great Vibes", cursive;
+  font-size: 1.5em;
 }
+
 .showcase h1 {
   font-family: "Bitter", serif;
   font-weight: 500;
 }
+.top_banner {
+  margin-left: 5px;
+  margin-top: 2px;
+}
+.bottom_banner {
+  margin-top: 5 px;
+  margin-left: 5px;
+  margin-bottom: 100px;
+}
 
 .btn {
+  margin-left: 5px;
   display: flex;
   align-items: center;
   justify-items: center;
@@ -407,7 +439,15 @@ i {
     font-size: 4.5em;
     font-weight: 400;
   }
+  .top_banner {
+    margin: 100px;
+  }
+  .bottom_banner {
+    margin-left: 100px;
+  }
   .btn {
+    margin-top: 300px;
+    margin-left: 100px;
     width: 260px;
     height: 50px;
   }
