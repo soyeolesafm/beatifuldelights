@@ -1,0 +1,24 @@
+.btn {
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  background: #2c2c2c;
+  color: #f6f6f6;
+  width: 130px;
+  height: 35px;
+  text-align: center;
+  margin-top: 30px;
+  border-radius: 10px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.btn p {
+  margin: auto;
+
+  letter-spacing: 2px;
+  font-weight: 575;
+}
+.btn:hover {
+  background: #ffe2e2;
+}

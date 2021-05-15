@@ -6,6 +6,9 @@
   box-sizing: border-box;
   font-family: "Athiti", sans-serif;
 }
+a {
+  text-decoration: none;
+}
 body {
   overflow-y: auto;
 }
@@ -86,7 +89,6 @@ i {
 }
 
 .item a {
-  text-decoration: none;
   color: #aaaaaa;
 }
 .hamburger_btn {
@@ -162,12 +164,25 @@ i {
   border-radius: 10px;
   cursor: pointer;
 }
-
+.showcase .btn {
+  background: #2c2c2c;
+  color: #f6f6f6;
+  opacity: 0.8;
+  margin-top: 170px;
+}
+.showcase .btn:hover {
+  background: #ffe2e2;
+  color: #2c2c2c;
+}
+.showcase .btn p {
+  color: #f6f6f6;
+}
 .btn p {
   margin: auto;
   color: #080808;
   letter-spacing: 1px;
 }
+
 .head {
   margin: auto;
   margin-top: 25px;
@@ -439,6 +454,15 @@ i {
     font-size: 4.5em;
     font-weight: 400;
   }
+
+  .showcase .btn p {
+    font-weight: 600;
+    letter-spacing: 3px;
+  }
+  .showcase .btn {
+    margin-top: 300px;
+    margin-left: 100px;
+  }
   .top_banner {
     margin: 100px;
   }
@@ -446,9 +470,11 @@ i {
     margin-left: 100px;
   }
   .btn {
-    margin-top: 300px;
-    margin-left: 100px;
     width: 260px;
     height: 50px;
+  }
+
+  .line_2 {
+    margin-top: 54px;
   }
 }
