@@ -92,17 +92,24 @@ i {
   color: #aaaaaa;
 }
 .hamburger_btn {
-  position: absolute;
+  position: fixed;
+  margin: auto;
   z-index: 100;
   top: 35px;
   right: 10px;
+  background: #ffe2e2;
+  border-radius: 50%;
+  height: 38px;
+  width: 38px;
+  opacity: 0.5;
+  padding-top: 5px;
 }
 
 .hamburger_btn div {
   width: 25px;
   height: 2px;
   background: #ffc7c7;
-  margin: 5px;
+  margin: 5px auto;
   transition: all 0.5s ease-in-out;
 }
 
@@ -121,12 +128,17 @@ i {
   transform: rotate(-45deg) translate(10px);
 }
 .showcase {
-  background: url(./img/MYXJ_20210127130048840_save.jpg) no-repeat center
-    center/cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 60vh;
   margin-top: 10px;
   padding-left: 25px;
   padding-top: 95px;
+  animation-name: slideshow;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  opacity: 0.9;
 }
 .showcase_content {
   position: absolute;
@@ -384,6 +396,36 @@ i {
   justify-content: space-around;
   width: 50%;
   margin: 15px auto;
+}
+
+/*  SLIDESHOW ANIMATION */
+
+@keyframes slideshow {
+  0% {
+    background-image: url(./img/MYXJ_20210127130048840_save.jpg);
+  }
+
+  25% {
+    background-image: url(./img/MYXJ_20210127130048840_save.jpg);
+  }
+  25.01% {
+    background-image: url(./img/Bgrnd2.jpg);
+  }
+  50% {
+    background-image: url(./img/Bgrnd2.jpg);
+  }
+  50.01% {
+    background-image: url(./img/bgrd3.jpg);
+  }
+  75% {
+    background-image: url(./img/bgrd3.jpg);
+  }
+  75.01% {
+    background-image: url(./img/bkgr4.jpg);
+  }
+  100% {
+    background-image: url(./img/bkgr4.jpg);
+  }
 }
 
 @media (min-width: 768px) {
