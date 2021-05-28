@@ -136,8 +136,9 @@ i {
   padding-left: 25px;
   padding-top: 95px;
   animation-name: slideshow;
-  animation-duration: 25s;
+  animation-duration: 15s;
   animation-iteration-count: infinite;
+  transition: ease-in-out;
   opacity: 0.9;
 }
 .showcase_content {
