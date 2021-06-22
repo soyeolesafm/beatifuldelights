@@ -60,8 +60,11 @@ i {
   align-items: center;
 }
 .logo .logo_img {
-  width: 50%;
+  width: 60%;
   margin: auto;
+}
+.nav {
+  background-color: #ffe2e2;
 }
 
 .menu_list {
@@ -95,8 +98,8 @@ i {
   position: fixed;
   margin: auto;
   z-index: 100;
-  top: 40px;
-  right: 20px;
+  top: 60px;
+  right: 30px;
   background: #ffe2e2;
   border-radius: 50%;
   height: 38px;
@@ -131,7 +134,7 @@ i {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 60vh;
+  height: 75vh;
   /* margin-top: 10px; */
   /* padding-left: 25px;
   padding-top: 95px; */
@@ -146,7 +149,7 @@ i {
 
 .showcase {
   position: absolute;
-  height: 60vh;
+  height: 70vh;
   margin-top: 10px;
   padding-left: 25px;
   padding-top: 150px;
@@ -166,7 +169,7 @@ i {
 }
 .top_banner {
   margin-left: 5px;
-  margin-top: 2px;
+  margin-top: 85px;
 }
 .bottom_banner {
   margin-top: 5 px;
@@ -195,6 +198,9 @@ i {
 }
 .showcase .btn:hover {
   background: #ffe2e2;
+  color: #2c2c2c;
+}
+.showcase .btn p:hover {
   color: #2c2c2c;
 }
 .showcase .btn p {
@@ -471,8 +477,8 @@ i {
     position: relative;
     flex-direction: row;
     transform: none;
-    height: 15px;
-    padding-top: 15px;
+    height: 13px;
+    padding-top: 10px;
   }
   .item {
     font-size: 1.5em;
@@ -482,7 +488,7 @@ i {
     padding-top: 250px;
   }
   .slide {
-    height: 88vh;
+    height: 80vh;
   }
 
   .showcase .btn {
@@ -498,7 +504,7 @@ i {
   }
 
   .logo .logo_img {
-    width: 200px;
+    width: 250px;
   }
 
   .thumbnails div {
